@@ -106,7 +106,7 @@ def trim_measurement_region(positions, widths, drop_threshold=0.005):
     return positions[max_index:end_index + 1], widths[max_index:end_index + 1]
 
 def main():
-    path = 'Sample2.jpg'
+    path = 'photo_2025-05-22_00-11-32.jpg'
     real_diameter_mm = 5  # 🔧 Настоящий диаметр в нижней части
 
     img, binary = load_and_preprocess_image(path)
